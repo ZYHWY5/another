@@ -1,0 +1,51 @@
+.partner{
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partner>h1>img{
+    margin-top: 25px;
+}
+.partner>ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.partner>ul>li{
+    float: left;
+    width: 186px;
+    height: 313px;
+    margin: 0;
+    text-align: center;
+}
+.dun1{
+    background: url(../img/p1_07.png) no-repeat;
+}
+.dun2{
+    background: url(../img/p2_07.png) no-repeat;
+}
+.dun3{
+    background: url(../img/p3_07.png);
+}
+.partner>ul>li>a>img{
+    margin: 25px auto 15px auto;
+}
+.hezuo{
+    width: 129px;
+    color: #fff;
+    margin-left: 25px;
+    text-align: left;
+    margin-top: -4px;
+}
+.details{
+    display: block;
+    width: 100px;
+    height: 18px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #fff;
+    line-height: 18px;
+    margin-top: 25px;
+}

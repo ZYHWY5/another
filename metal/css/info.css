@@ -1,0 +1,47 @@
+.profile{
+    width: 908px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
+
+.profile>p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.profile-title{
+    font-size: 38px;
+    text-align: center;
+    color: #7f7f7f;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.profile-title2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-text1,
+.profile-text2{
+    line-height: 24px;
+}
+
+.profile-text2{
+    margin-bottom: 12px;
+}
+
+.profile-img2area
+{
+    position: relative;
+}
+
+.profile-title3
+{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    right: 26px;
+    top: 64px;
+    user-select: none;
+}

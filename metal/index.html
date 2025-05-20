@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盈洪金属企业网站</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <style>
+    #container {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        font-family: "微软雅黑";
+    }
+    .info {
+        z-index: 999;
+        width: auto;
+        min-width: 22rem;
+        padding: .75rem 1.25rem;
+        margin-left: 1.25rem;
+        position: fixed;
+        top: 1rem;
+        background-color: #fff;
+        border-radius: .25rem;
+        font-size: 14px;
+        color: #666;
+        box-shadow: 0 2px 6px 0 rgba(27, 142, 236, 0.5);
+    }
+    </style>
+    <!-- 密钥 -->
+    <script src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=tuE8GgpDeojxNeCuZFziFoIeyOiBA1ao"></script>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/karma.css">
+    <link rel="stylesheet" href="css/show.css">
+    <link rel="stylesheet" href="css/partner.css">
+    <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="header_right">
+            <img class="header_img" src="img/pentagram.png" alt="">
+            <span class="header_words">
+                收藏我们
+            </span>
+        </div>
+        <div class="header_right">
+            <img class="header_img" src="img/house.png" alt="">
+            <span class="header_words">
+                设为首页
+            </span>
+        </div>
+    </div>
+    <!-- header end -->
+    <!-- nav -->
+    <div class="nav">
+        <img src="img/logo.png" alt="">
+        <div class="nav_words">
+            <!-- 一级菜单 -->
+            <ul class="words_ul">
+                <li class="uncontral"><span>首页</span></li>
+                <li class="uncontral" style="margin-left: 30px;"><span>公司简介</span></li>
+                <li class="uncontral" style="margin-left: 24px;"><span>供应产品</span></li>
+                <li class="uncontral" style="margin-left: 30px;"><span>公司动态</span></li>
+                <li class="uncontral" style="margin-left: 28px;"><span>行业动态</span></li>
+                <li class="uncontral" style="margin-left: 26px;"><span>我们的优势</span></li>
+                <li class="uncontral" style="margin-left: 28px;"><span>公司资质</span></li>
+                <li class="uncontral" style="margin-left: 28px;"><span>联系我们</span></li>
+            </ul>
+            <!-- 选中特效 -->
+            <ul class="img_ul">
+                <li><img class="nav_border" src="img/border.png" alt=""></li>
+                <li><img class="nav_border" src="img/border.png" alt="" style="left: 40px;"></li>
+                <li><img class="nav_border" src="img/border.png" alt="" style="left: 130px;"></li>
+                <li><img class="nav_border" src="img/border.png" alt="" style="left: 215px;"></li>
+                <li><img class="nav_border" src="img/border.png" alt="" style="left: 300px;"></li>
+                <li><img class="nav_border" src="img/border.png" alt="" style="left: 395px;"></li>
+                <li><img class="nav_border" src="img/border.png" alt="" style="left: 490px;"></li>
+                <li><img class="nav_border" src="img/border.png" alt="" style="left: 575px;"></li>
+            </ul>
+            <!-- 二级菜单 -->
+            <ul class="second">
+                <li>公司历程</li>
+                <li>公司理念</li>
+                <li>未来规划</li>
+            </ul>
+            <ul class="second" style="left: 145px;">
+                <li>供应链</li>
+                <li>供应商</li>
+                <li>供应商品</li>
+            </ul>
+            <ul class="second" style="left: 235px;">
+                <li>行业趋势</li>
+                <li>行业价格</li>
+                <li>主要商品</li>
+            </ul>
+            <ul class="second" style="left: 320px;">
+                <li>人才优势</li>
+                <li>保障优势</li>
+                <li>员工服务</li>
+            </ul>
+            <ul class="second" style="left: 410px;">
+                <li>人才优势</li>
+                <li>保障优势</li>
+                <li>员工服务</li>
+            </ul>
+            <ul class="second" style="left: 505px;">
+                <li>人才优势</li>
+                <li>保障优势</li>
+                <li>员工服务</li>
+            </ul>
+            <ul class="second" style="left: 592px;">
+                <li>人才优势</li>
+                <li>保障优势</li>
+                <li>员工服务</li>
+            </ul>
+        </div>
+        <!-- 输入框 -->
+        <div class="nav_input">
+            <form action="">
+                <input type="text">
+            </form>
+            <img src="img/Magnifier.png" alt="">
+        </div>
+    </div>
+    <!-- nav end -->
+    <!-- banner -->
+    <div class="banner">
+        <img class="banner_img" src="img/banner1.png" alt="">
+        <img class="banner_img" src="img/banner2.png" alt="" style="opacity: 0;">
+        <img class="banner_img" src="img/banner3.png" alt="" style="opacity: 0;">
+        <div class="btn">
+            <span class="uncon"></span>
+            <span class="uncon"></span>
+            <span class="uncon"></span>
+        </div>
+    </div>
+    <!-- banner end -->
+    <!--公司简介-->
+    <div class="profile">
+        <div class="profile-title">About us / <span style="color: #1965b0">公司简介</span></div>
+        <img src="img/profile-img1.png" alt="">
+        <p class="profile-text1">
+            <span style="color: #537cd2">重庆盈洪金属科技有限公司</span>制作钢结构厂房围护系统，公司注册资金1000万元，
+            地处重庆长寿工业园区，占地10000平方米，是一家集钢结构建筑围护系统研发设计、加工
+            制造、物流配送于一体的专业化公司,公司致力于低碳、环保、节能产品的研发与推广,倡导
+            绿色建筑.
+        </p>
+
+        <h3 class="profile-title2">公司理念</h3>
+        <p class="profile-text2">
+            公司秉承诚信、创新、服务、共赢的经营理念,携手客户,陪伴员工,在合作、共赢的未来征途中,立志成为共享绿色建筑,开启低碳生活的倡导者和践行者。
+        </p>
+        <div class="profile-img2area">
+            <div class="profile-title3">诚信、创新、服务、共赢</div>
+            <img src="img/profile-img2.png" alt="">
+        </div>
+    </div>
+    <!--公司简介 end-->
+    <!-- 公司业态 -->
+    <div class="CompanyDynamics">
+        <h1><img src="img/NewsCompany.png" alt=""></h1>
+        <!-- 公司动态 -->
+        <div class="CompanyDynamics_left">
+            <h2 class="Plate">公司动态</h2>
+            <ul class="Plate_cont1">
+                <li>
+                    <a href="" class="cont">            
+                        <p>>>力诚建材大川店、龙溪店、美每家店三店联动夏季促销</p>
+                        <span class="NewDate">2013-12-15</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="cont">                     
+                        <p>>>力诚韵木整装白色象牙系列低至1198元/樘起</p>
+                        <span class="NewDate">2013-12-15</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="cont">        
+                        <p>>>即日起，市民至上述三店内交纳100元订金，就可享受此...</p>
+                        <span class="NewDate">2013-12-15</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="cont">               
+                        <p>>>参与此次活动的商品价格将低于淘宝网均价10%-45%</p>
+                        <span class="NewDate">2013-12-15</span>
+                    </a>
+                </li>
+                <li><a href="" class="KnowMore">了解更多>></a></li>
+            </ul>
+        </div>
+        <!-- 新闻中心 -->
+        <div class="CompanyDynamics_right">
+            <h2 class="Plate">新闻中心</h2>
+            <ul class="Plate_cont2">
+                <li>
+                    <a href="" class="cont">
+                        <span class="NewsCount">01</span>
+                        <p>资本挥师济南助力山东半岛地产1月份融资</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="cont">
+                        <span class="NewsCount">02</span>
+                        <p>规模超预期货币政策将维持</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="cont">
+                        <span class="NewsCount">03</span>
+                        <p>中国吸引资本流入底气不减抄底资产还是谋求转</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="cont">
+                        <span class="NewsCount">04</span>
+                        <p>房企纷纷进军老友相聚老歌传情资本邀投资人</p>
+                    </a>
+                </li>
+                <li><a href=""class="KnowMore">了解更多>></a></li>
+
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- 公司业态 end -->
+    <!-- 产品展示 -->
+    <div class="Show">
+        <h1><img src="img/productShow.png" alt=""></h1>
+        <div class="showTitle">
+            <h2><img src="img/Recommend.png" alt=""><span>more  >></span><div class="rectangle"></div></h2>
+        </div>
+        <div class="picShowRecommend com">
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+            <img src="img/7.jpg" alt="">
+        </div>
+        <div class="showTitle">
+            <h2><img src="img/Supply.png" alt=""><span>more  >></span><div class="rectangle"></div></h2>
+        </div>
+        <div class="picShowSupply com">
+            <img src="img/8.jpg" alt="">
+            <img src="img/9.jpg" alt="">
+            <img src="img/10.jpg" alt="">
+        </div>
+        <div class="productName">
+            <p>楼承板-678</p>
+            <p>楼承板-760</p>
+            <p>楼承板-915</p>
+        </div>
+    </div>
+    <!-- 产品展示 end -->
+    <!-- 合作伙伴 -->
+    <div class="partner">
+        <h1><img src="img/part_07.png" alt=""></h1>
+        <ul>
+            <li class="dun1"><a href=""><img src="img/pa1_07.png" alt=""><p class="hezuo">合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴</p><p class="details">更多详情</p></a></li>
+            <li class="dun2"><a href=""><img src="img/pa2_07.png" alt=""><p class="hezuo">合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴</p><p class="details">更多详情</p></a></li>
+            <li class="dun3"><a href=""><img src="img/pa3_07.png" alt=""><p class="hezuo">合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴合作伙伴</p><p class="details">更多详情</p></a></li>
+        </ul>
+    </div>
+    <!-- 合作伙伴 end -->
+    <!-- 联系我们 -->
+    <div class="Contact"></div>
+    <div class="five">
+        <div class="Contect-left">
+            <div id="container"></div>
+        </div>
+        <div class="Contect-right">
+            <div class="text">
+                <h5>重庆盈洪金属科技有限公司</h5>
+                <p>公司地址：重庆市长寿区晏家工业园区</p>
+                <p>齐心大道19号</p>
+                <p>电话号码：023-85320325、85320228</p>
+                <p>公司邮箱：794184941@qq.com</p>
+                <p>公司网址：www.cqkozo.com</p>
+            </div>
+        </div>
+        <div class="code">
+            <img src="img/code.png" alt="">
+        </div>
+    </div>
+    <div class="link">
+        <p>友情链接<span> LINK</span></p> 
+        <span>more >></span>
+    </div>
+    <div class="internet">
+        <p>赣榆信息网&emsp;郑州装修网&emsp;相框线条批发&emsp;桐庐装修&emsp;安康装修&emsp;网盘锦吧&emsp;装修网&emsp;张家界装修公司&emsp;合肥装修网&emsp;深圳装修公司&emsp;罗湖装修公司&emsp;南沙装修网&emsp;咸宁家装网</p>
+    </div>
+    <div class="foot">
+        <div class="show">
+            <img src="img/tu1.png" alt="">
+            <img src="img/tu2.png" alt="">
+            <img src="img/tu3.png" alt="">
+            <img src="img/tu4.png" alt="">
+        </div>
+        <p>2014&emsp;重庆盈洪金属科技有限公司版权所有&emsp;&emsp;&emsp;渝ICP备：88888888号&emsp;&emsp;&emsp;技术支持：柯众网络</p>
+    </div>
+    <!-- 联系我们 end -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/karma.js"></script>
+    <script src="js/project.js"></script>
+    <script>
+        var map = new BMapGL.Map('container'); // 创建Map实例
+        map.centerAndZoom(new BMapGL.Point(106.60367, 29.42953), 19); // 初始化地图,设置中心点坐标和地图级别
+        map.enableScrollWheelZoom(true); // 开启鼠标滚轮缩放
+        var scaleCtrl = new BMapGL.ScaleControl();  // 添加比例尺控件
+        map.addControl(scaleCtrl);
+        var zoomCtrl = new BMapGL.ZoomControl();  // 添加缩放控件
+        map.addControl(zoomCtrl);
+        var navi3DCtrl = new BMapGL.NavigationControl3D();  // 添加3D控件
+        map.addControl(navi3DCtrl);
+         // 创建定位控件
+         var locationControl = new BMapGL.LocationControl({
+            // 控件的停靠位置（可选，默认左上角）
+            anchor: BMAP_ANCHOR_TOP_RIGHT,
+            // 控件基于停靠位置的偏移量（可选）
+            offset: new BMapGL.Size(20, 20)
+        });
+        // 将控件添加到地图上
+        map.addControl(locationControl);
+
+        // 添加定位事件
+        locationControl.addEventListener("locationSuccess", function(e){
+            var address = '';
+            address += e.addressComponent.province;
+            address += e.addressComponent.city;
+            address += e.addressComponent.district;
+            address += e.addressComponent.street;
+            address += e.addressComponent.streetNumber;
+            alert("当前定位地址为：" + address);
+        });
+        locationControl.addEventListener("locationError",function(e){
+            alert(e.message);
+        });
+    </script>
+</body>
+</html>
