@@ -1,0 +1,1256 @@
+.all-background{
+    width: 1440px;
+    height: 2160px;
+    background-image: url(../images/background.jpg);
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-box{
+    width: 975px;
+    height: 150px;
+    background-image: url(../images/nav-background.png);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.nav-box-words-box{
+    height: 150px;
+    width: 128px;
+    border-right: 1px #c1c7c3 solid;
+    float: left;
+}
+.words-1{
+    font-size: 20px;
+    display: inline-block;
+    transform: translate(25px,41px);
+}
+.nav-box-words-box-a-box-1{
+    width: 28px;
+    height: 81px;
+    margin-top: 43px;
+    margin-left: 49px;
+}
+.nav-a{
+    font-size: 14px;
+    color: black;
+    padding-top: 7px;
+    transition: all,0.2s;
+}
+.nav-box-words-box-a-box{
+    width: 58px;
+    height: 81px;
+    margin-top: 43px;
+    margin-left: 36px;
+}
+.nav-box-logo-box{
+    width: 200px;
+    height: 150px;
+    border-right: 1px #c1c7c3 solid;
+    float: left;
+}
+.nav-logo{
+    margin-left: 11px;
+}
+.nav-a:hover{
+    color: red;
+}
+.slogan-box{
+    width: 435px;
+    height: 240px;
+    margin-left: 506px;
+    margin-top: 12px;
+}
+.left-box{
+    width: 240px;
+    height: 1542px;
+    margin-left: 235px;
+    transform: translateY(-19px);
+    float: left;
+}
+.begin-game-box{
+    width: 240px;
+    height: 148px;
+    position: relative;
+}
+.big-buttom-box{
+    width: 240px;
+    height: 110px;
+    position: relative;
+}
+.big-buttom-box-stand{
+    width: 240px;
+    height: 110px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.big-buttom-box:hover .big-buttom-box-stand{
+    opacity: 1;
+}
+.buttpm-box{
+    width: 241px;
+    height: 38px;
+}
+.register-box{
+    width: 120px;
+    height: 38px;
+    position: relative;
+    float: left;
+}
+.register-box-stand{
+    width: 121px;
+    height: 38px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.register-box:hover .register-box-stand{
+    opacity: 1;
+}
+.recharge-box{
+    width: 119px;
+    height: 38px;
+    position: relative;
+    float: left;
+}
+.recharge-box-stand{
+    width: 119px;
+    height: 38px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.recharge-box:hover .recharge-box-stand{
+    opacity: 1;
+}
+.ui-box{
+    position: absolute;
+    left: 0;
+    bottom: 24px;
+}
+.login-box{
+    width: 240px;
+    height: 133px;
+    background-image: url(../images/login-background.jpg);
+}
+.form-box{
+    width: 118px;
+    height: 53px;
+    padding-top: 12px;
+    margin-left: 24px;
+    float: left;
+}
+.accont{
+    width: 115px;
+    height: 21px;
+    border: 1px #8bc4b4 solid;
+}
+.password{
+    width: 115px;
+    height: 21px;
+    margin-top: 5px;
+    border: 1px #8bc4b4 solid;
+}
+.login-photo-box{
+    width: 67px;
+    height: 52px;
+    padding-top: 12px;
+    margin-left: 11px;
+    float: left;
+}
+.login-photo{
+    width: 67px;
+    height: 52px;
+    position: relative;
+}
+.login-photo-stand{
+    width: 67px;
+    height: 52px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.login-photo:hover .login-photo-stand{
+    opacity: 1;
+}
+.checked-box{
+    width: 88px;
+    height: 14px;
+    padding-top: 9px;
+    margin-left: 28px;
+    float: left;
+}
+.auto-form{
+    height: 13px;
+    width: 13px;
+    float: left;
+}
+.auto{
+    height: 13px;
+    width: 13px;
+    border: 1px #8f908f solid;
+    border-radius: 0px;
+}
+.auto-words{
+    font-size: 12px;
+    float: left;
+    padding-left: 3px;
+    transform: translateY(2px);
+}
+.forget-box{
+    width: 55px;
+    height: 12px;
+    padding-top: 7px;
+    margin-left: 44px;
+    float: left;
+}
+.forget-box-words{
+    font-size: 12px;
+    color: black;
+    transition: all,0.2s;
+}
+.forget-box-words:hover{
+    color: red;
+}
+.qq{
+    width: 137px;
+    height: 25px;
+}
+.qq-box{
+    width: 137px;
+    height: 25px;
+    padding-top: 11px;
+    margin-left: 53px;
+    float: left;
+    position: relative;
+}
+.qq-box-stand{
+    width: 137px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    /*top: 0;*/
+    transform: translateY(-29px);
+    opacity: 0;
+    transition: all,0.2s;
+}
+.qq-box:hover .qq-box-stand{
+    opacity: 1;
+}
+.rookie-card-box{
+    width: 240px;
+    height: 45px;
+    padding-top: 10px;
+}
+.rookie-card{
+    width: 240px;
+    height: 45px;
+    position: relative;
+}
+.rookie-card-stand{
+    width: 240px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.rookie-card:hover .rookie-card-stand{
+    opacity: 1;
+}
+.server-box{
+    width: 240px;
+    height: 217px;
+    background-image: url(../images/server-background.jpg);
+    margin-top: 13px;
+}
+.recommend{
+    width: 240px;
+    height: 32px;
+}
+.servers-box{
+    width: 222px;
+    height: 129px;
+    margin-left: 8px;
+    margin-top: 11px;
+}
+.servers-1{
+    width: 222px;
+    height: 27px;
+    position: relative;
+}
+.servers-1-stand{
+    width: 222px;
+    height: 27px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.servers-1:hover .servers-1-stand{
+    opacity: 1;
+}
+.servers-234{
+    width: 222px;
+    height: 27px;
+    padding-top: 7px;
+    position: relative;
+}
+.servers-234-stand{
+    width: 222px;
+    height: 27px;
+    padding-top: 7px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.servers-234:hover .servers-234-stand{
+    opacity: 1;
+}
+.more-severs-box{
+    width: 104px;
+    height: 24px;
+    margin-left: 71px;
+}
+.more-severs{
+    width: 104px;
+    height: 24px;
+    padding-top: 8px;
+    position: relative;
+}
+.more-severs-stand{
+    width: 104px;
+    height: 24px;
+    padding-top: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.more-severs:hover .more-severs-stand{
+    opacity: 1;
+}
+.ranking-box{
+    width: 240px;
+    height: 231px;
+    background-image: url(../images/ranking-background.png);
+    margin-top: 11px;
+}
+.term-box{
+    width: 199px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+    margin-left: 21px;
+}
+.term-1{
+    width: 100px;
+    height: 20px;
+}
+.term-1-style{
+    border: 1px #bfbfbf solid;
+    border-radius: 0px;
+    width: 100px;
+    height: 20px;
+}
+.term-2{
+    width: 91px;
+    height: 20px;
+}
+.term-2-style{
+    border: 1px #bfbfbf solid;
+    border-radius: 0px;
+    width: 91px;
+    height: 20px;
+}
+.list-1-box{
+    width: 196px;
+    height: 19px;
+    margin-left: 24px;
+    margin-top: 42px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.list-1{
+    width: 164px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.list-words{
+    font-size: 12px;
+    color: #0b4f49;
+    transition: all,0.2s;
+    cursor: pointer;
+}
+.list-words:hover{
+    color: red;
+}
+.list-2-box{
+    width: 196px;
+    height: 19px;
+    margin-left: 24px;
+    margin-top: 5px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.list-3-box{
+    width: 196px;
+    height: 19px;
+    margin-left: 24px;
+    margin-top: 5px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.list-4-box{
+    width: 196px;
+    height: 19px;
+    margin-left: 24px;
+    margin-top: 5px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.list-5-box{
+    width: 196px;
+    height: 19px;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+.micro-box{
+    width: 240px;
+    height: 114px;
+    background-image: url(../images/micro-background.jpg);
+    margin-top: 10px;
+}
+.top-box{
+    width: 240px;
+    height: 34px;
+    display: flex;
+}
+.xinlang-box{
+    width: 111px;
+    height: 34px;
+    position: relative;
+}
+.xinlang-box-stand{
+    width: 111px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.xinlang-box:hover .xinlang-box-stand{
+    opacity: 1;
+}
+.tengxun-box{
+    width: 129px;
+    height: 344px;
+    position: relative;
+}
+.tengxun-box-stand{
+    width: 129px;
+    height: 344px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.micro-buttom-box{
+    width: 168px;
+    height: 57px;
+    margin-top: 9px;
+    margin-left: 21px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.weibo-photo{
+    width: 72px;
+    height: 57px;
+}
+.weibo-words{
+    width: 67px;
+    height: 12px;
+}
+.weibo-buttom{
+    width: 75px;
+    height: 23px;
+    cursor: pointer;
+    transform: translate(93px,-23px);
+}
+.game-introduction-box{
+    width: 240px;
+    height: 200px;
+    background-image: url(../images/game-introduction-background.jpg);
+    margin-top: 10px;
+}
+.game-introduction-words{
+    width: 196px;
+    height: 147px;
+    font-size: 12px;
+    color: #0b4f49;
+    line-height: 21px;
+    padding-top: 40px;
+    margin-left: 22px;
+    user-select: none;/*禁止文本选中*/
+}
+.kefucenter-box{
+    width: 240px;
+    height: 215px;
+    background-image: url(../images/kefucenter-background.jpg);
+    margin-top: 10px;
+}
+.kefucenter-banner{
+    width: 166px;
+    height: 117px;
+    padding-top: 55px;
+    padding-left: 36px;
+    user-select: none;/*禁止文本选中*/
+}
+.kfrx{
+    width: 166px;
+    height: 12px;
+    font-size: 12px;
+}
+.kfyx{
+    width: 155px;
+    height: 12px;
+    font-size: 12px;
+    padding-top: 9px;
+}
+.czkf{
+    width: 141px;
+    height: 26px;
+    font-size: 12px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.point-into{
+    width: 78px;
+    height: 26px;
+    position: relative;
+}
+.point-into-stand{
+    width: 78px;
+    height: 26px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.point-into:hover .point-into-stand{
+    opacity: 1;
+}
+.yxlt{
+    width: 141px;
+    height: 26px;
+    font-size: 12px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.kfsj{
+    width: 155px;
+    height: 12px;
+    font-size: 12px;
+    padding-top: 8px;
+}
+.cooperate-box{
+    width: 240px;
+    height: 164px;
+    background-image: url(../images/cooperate-background_03.jpg);
+    margin-top: 10px;
+}
+.cooperate-banner{
+    width: 220px;
+    height: 112px;
+    padding-top: 42px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.right-box{
+    width: 710px;
+    height: 1451px;
+    float: right;
+    margin-top: 71px;
+    margin-right: 245px;
+}
+.banner-box{
+    width: 710px;
+    height: 210px;
+    background-image: url(../images/AD-photo.jpg);
+}
+.lunhuan-buttom{
+    width: 194px;
+    height: 40px;
+    margin-left: 516px;
+    position: relative;
+}
+.lunhuan-buttom-stand{
+    width: 194px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.lunhuan-photo{
+    width: 193px;
+    height: 47px;
+}
+.lunhuan-buttom:hover .lunhuan-buttom-stand{
+    opacity: 1;
+}
+.news-box{
+    width: 710px;
+    height: 248px;
+    margin-top: 10px;
+    background-image: url(../images/news-background.jpg);
+}
+.news-box-top{
+    width: 710px;
+    height: 36px;
+}
+.zuixin-words{
+    width: 64px;
+    height: 36px;
+    float: left;
+    margin-left: 11px;
+    position: relative;
+}
+.zuixin-words-stand{
+    width: 64px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.xinwen{
+    width: 64px;
+    height: 36px;
+    float: left;
+    margin-left: 6px;
+    position: relative;
+}
+.xinwen-stand{
+    width: 64px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.huodong{
+    width: 64px;
+    height: 36px;
+    float: left;
+    margin-left: 2px;
+    position: relative;
+}
+.huodong-stand{
+    width: 64px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.gonggao{
+    width: 64px;
+    height: 36px;
+    float: left;
+    margin-left: 3px;
+    position: relative;
+}
+.gonggao-stand{
+    width: 64px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.meiti{
+    width: 64px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+.meiti-stand{
+    width: 64px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.zuixin-words:hover .zuixin-words-stand{
+    opacity: 1;
+}
+.xinwen:hover .xinwen-stand{
+    opacity: 1;
+}
+.huodong:hover .huodong-stand{
+    opacity: 1;
+}
+.gonggao:hover .gonggao-stand{
+    opacity: 1;
+}
+.meiti:hover .meiti-stand{
+    opacity: 1;
+}
+.more{
+    width: 40px;
+    height: 8px;
+    margin-right: 10px;
+    margin-top: 5px;
+    position: relative;
+    float: right;
+}
+.more-stand{
+    width: 40px;
+    height: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.more:hover .more-stand{
+    opacity: 1;
+}
+.news-box-foot{
+    width: 684px;
+    height: 189px;
+    background-image: url(../images/news-foot-background.jpg);
+    margin-top: 13px;
+    margin-left: 13px;
+}
+.news-photo{
+    width: 161px;
+    height: 188px;
+    padding-top: 1px;
+    float: left;
+}
+.news-gonggao-top{
+    width: 509px;
+    height: 78px;
+    float: right;
+}
+.news-words-top{
+    font-size: 16px;
+    color: #de0101;
+    padding-left: 133px;
+    display: inline-block;
+    padding-top: 6px;
+}
+.news-words-foot{
+    display: inline-block;
+    width: 425px;
+    height: 30px;
+    font-size: 12px;
+    padding-left: 36px;
+    padding-top: 8px;
+}
+.xiangqing{
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.xiangqing:hover{
+    color: red;
+}
+.news-gonggao-foot{
+    width: 507px;
+    height: 97px;
+    float: right;
+    margin-top: 4px;
+}
+.news-gonggao-foot-words{
+    width: 507px;
+    height: 13px;
+    margin-top: 8px;
+}
+.words-left{
+    float: left;
+    font-size: 12px;
+    color: #0b4f49;
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.words-right{
+    float: right;
+    font-size: 12px;
+    color: #4f5756;
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.words-left:hover{
+    color: red;
+}
+.words-right:hover{
+    color: red;
+}
+.advers-box{
+    width: 710px;
+    height: 122px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.game-data-box{
+    width: 710px;
+    height: 194px;
+    margin-top: 5px;
+    background-image: url(../images/game-data-background.jpg);
+}
+.game-data-left{
+    width: 120px;
+    height: 153px;
+    padding-top: 41px;
+    float: left;
+}
+.left-words{
+    display: inline-block;
+    width: 120px;
+    height: 51px;
+    line-height: 51px;
+    font-size: 16px;
+    color: #28302f;
+    text-align: center;
+}
+.right-words{
+    width: 590px;
+    height: 51px;
+    float: right;
+    margin-top: 22px;
+}
+.right-1{
+    width: 485px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 16px;
+}
+.right-1-words{
+    font-size: 12px;
+    color: #0b4f49;
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.right-1-words:hover{
+    color: red;
+}
+.job-box{
+    width: 710px;
+    height: 283px;
+    background-image: url(../images/job-box-background_03.jpg);
+    margin-top: 10px;
+}
+.job-box-top{
+    width: 710px;
+    height: 32px;
+    padding-top: 3px;
+}
+.moshi{
+    width: 64px;
+    height: 32px;
+    padding-left: 10px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.moshi-stand{
+    width: 64px;
+    height: 32px;
+    padding-left: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+    cursor: pointer;
+}
+.moshi:hover .moshi-stand{
+    opacity: 1;
+}
+.qinshi{
+    width: 64px;
+    height: 32px;
+    padding-left: 13px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.qinshi-stand{
+    width: 64px;
+    height: 32px;
+    padding-left: 13px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+    cursor: pointer;
+}
+.qinshi:hover .qinshi-stand{
+    opacity: 1;
+}
+.daojianshi{
+    width: 64px;
+    height: 32px;
+    padding-left: 13px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.daojianshi-stand{
+    width: 64px;
+    height: 32px;
+    padding-left: 13px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+    cursor: pointer;
+}
+.daojianshi:hover .daojianshi-stand{
+    opacity: 1;
+}
+.yulingshi{
+    width: 64px;
+    height: 32px;
+    padding-left: 18px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.yulingshi-stand{
+    width: 64px;
+    height: 32px;
+    padding-left: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+    cursor: pointer;
+}
+.yulingshi:hover .yulingshi-stand{
+    opacity: 1;
+}
+.job-box-buttom{
+    width: 710px;
+    height: 248px;
+    position: relative;
+}
+.moshi-photo{
+    width: 710px;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.qinshi-photo{
+    width: 710px;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.daojianshi-photo{
+    width: 710px;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.yulingshi-photo{
+    width: 710px;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.glandmr{
+    width: 710px;
+    height: 175px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.yxgl{
+    width: 459px;
+    height: 175px;
+    background-image: url(../images/yxgl-background.jpg);
+}
+.populor{
+    width: 241px;
+    height: 175px;
+    background-image: url(../images/popular-background.jpg);
+}
+.yxgl-top{
+    width: 459px;
+    height: 33px;
+    padding-top: 3px;
+}
+.cjwt{
+    width: 82px;
+    height: 33px;
+    padding-left: 9px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.cjwt-stand{
+    width: 82px;
+    height: 33px;
+    padding-left: 9px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.cjwt:hover .cjwt-stand{
+    opacity: 1;
+}
+.ltjh{
+    width: 82px;
+    height: 33px;
+    padding-left: 2px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.ltjh-stand{
+    width: 82px;
+    height: 33px;
+    padding-left: 2px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.ltjh:hover .ltjh-stand{
+    opacity: 1;
+}
+.gamegl{
+    width: 82px;
+    height: 33px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.gamegl-stand{
+    width: 82px;
+    height: 33px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.gamegl:hover .gamegl-stand{
+    opacity: 1;
+}
+.yxgl-words{
+    width: 459px;
+    height: 139px;
+}
+.gamegl-words{
+    width: 417px;
+    height: 12px;
+    padding-top: 9px;
+    padding-left: 17px;
+}
+.jt{
+    width: 6px;
+    height: 7px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    transform: translateY(-8px);
+}
+.jt-stand{
+    width: 6px;
+    height: 7px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+}
+.jt-words{
+    font-size: 12px;
+    color: #0b4f49;
+    float: left;
+    cursor: pointer;
+    padding-left: 13px;
+    transition: all,0.2s;
+    transform: translateY(-3px);
+}
+.jt-date{
+    font-size: 12px;
+    color: #939393;
+    float: right;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+.jt-words:hover{
+    color: #c03232;
+}
+.gamegl-words:hover .jt-stand{
+    opacity: 1;
+}
+.populor-top{
+    width: 241px;
+    height: 36px;
+}
+.populor-bottom{
+    width: 241px;
+    height: 139px;
+}
+.populor-photo{
+    padding-top: 10px;
+    padding-left: 11px;
+    float: left;
+}
+.populor-words{
+    width: 112px;
+    height: 120px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #272323;
+}
+.game-photo-box{
+    width: 710px;
+    height: 164px;
+    margin-top: 10px;
+    background-image: url(../images/game-photo-background.jpg);
+}
+.game-photo-box-top{
+    width: 710px;
+    height: 33px;
+    padding-top: 3px;
+}
+.cjwt{
+    width: 81px;
+    height: 33px;
+    padding-left: 10px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.cjwt-stand{
+    width: 81px;
+    height: 33px;
+    padding-left: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+    cursor: pointer;
+}
+.wjxc:hover .wjxc-stand{
+    opacity: 1;
+}
+.yxyh{
+    width: 81px;
+    height: 33px;
+    padding-left: 8px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.yxyh-stand{
+    width: 81px;
+    height: 33px;
+    padding-left: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all,0.2s;
+    cursor: pointer;
+}
+.yxyh:hover .yxyh-stand{
+    opacity: 1;
+}
+.game-photo-box-bottom{
+    width: 710px;
+    height: 128px;
+}
+.photo-box{
+    width: 690px;
+    height: 98px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    cursor: pointer;
+}
+.footer-box{
+    width: 960px;
+    height: 106px;
+    margin-left: 235px;
+    margin-top: 80px;
+    float: left;
+    border-top: 1px #acc2ba solid;
+    font-size: 12px;
+    color: #1a1a1a;
+    line-height: 36px;
+    user-select: none;/*禁止文本选中*/
+}
+.control{
+    cursor: pointer;
+    transition: all,0.2s;
+}
+.control:hover{
+    color: red
+}
