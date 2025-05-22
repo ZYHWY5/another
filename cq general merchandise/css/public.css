@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clears{
+    clear: both;
+    height:0;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration:none;/*取消下划线*/
+}
+button{
+    cursor: pointer;/*光标变为手势*/
+}
+input,button,select,textarea{
+    outline: none;
+}
+textarea{
+    resize: none;
+}
